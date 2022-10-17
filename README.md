@@ -1,7 +1,4 @@
-![Simulator Screen Shot - iPhone 13 Pro Max - 2022-10-17 at 16 35 09](![Simulator Screen Shot - iPhone 13 Pro Max - 2022-10-17 at 16 34 45]()
-)
-![Simulator Screen Shot - iPhone 13 Pro Max - 2022-10-17 at 16 35 02]()
-![Simulator Screen Shot - iPhone 13 Pro Max - 2022-10-17 at 16 34 52]()
+
 ## AnimatedHeader
 - created ordering food app 
 - animated sticky header with scrollable Tabs 
