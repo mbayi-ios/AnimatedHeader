@@ -21,7 +21,7 @@ struct Home: View {
                     }
 
                     return AnyView(
-                        Image("food-1")
+                        Image("food-2")
                             .resizable()
                             .aspectRatio( contentMode: .fill)
                             .frame(width: UIScreen.main.bounds.width, height: 250 + (offset > 0 ? offset: 0))
