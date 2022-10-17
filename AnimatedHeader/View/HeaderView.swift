@@ -84,7 +84,6 @@ struct HeaderView: View {
             }
             .frame(height: 60)
 
-
             if homeData.offset > 250 {
                 Divider()
             }

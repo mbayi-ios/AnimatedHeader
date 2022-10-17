@@ -29,13 +29,13 @@ struct Home: View {
                             .offset(y: (offset > 0 ? -offset: 0))
                             .overlay(
                                 HStack {
-                                Button(action: {}, label: {
-                                    Image(systemName: "arrow.left")
-                                        .font(.system(size: 20, weight: .bold))
-                                        .foregroundColor(.white)
-                                })
+                                    Button(action: {}, label: {
+                                        Image(systemName: "arrow.left")
+                                            .font(.system(size: 20, weight: .bold))
+                                            .foregroundColor(.white)
+                                    })
 
-                                Spacer()
+                                    Spacer()
 
                                     Button(action: {}, label: {
                                         Image(systemName: "suit.heart.fill")
@@ -46,9 +46,6 @@ struct Home: View {
                                 }
                                     .padding(),
                                 alignment: .top
-
-
-
                             )
                     )
 
@@ -93,11 +90,11 @@ struct Home: View {
         }
         .overlay(
             (scheme == .dark ? Color.black : Color.white)
-                    .frame(height: UIApplication.shared.windows.first?
-                            .safeAreaInsets.top)
-                    .ignoresSafeArea(.all, edges: .top)
-                    .opacity(homeData.offset > 250 ? 1: 0)
-                 , alignment: .top)
+                .frame(height: UIApplication.shared.windows.first?
+                        .safeAreaInsets.top)
+                .ignoresSafeArea(.all, edges: .top)
+                .opacity(homeData.offset > 250 ? 1: 0)
+            , alignment: .top)
 
         .environmentObject(homeData)
     }
@@ -105,6 +102,6 @@ struct Home: View {
 
 struct Home_Previews: PreviewProvider {
     static var previews: some View {
-       Home()
+        Home()
     }
 }
